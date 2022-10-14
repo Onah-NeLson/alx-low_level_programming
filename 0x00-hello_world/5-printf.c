@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 /**
- * man - Entry point for the program.
+ **main - Entry point
  *
- * Return: 0 if no errors, return non zeron if errors
- */
+ **Return: return 1 after program exec
+ **/
 
 int main(void)
 {
-	printf("With proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammer ,
 	return (0);
-
 }
