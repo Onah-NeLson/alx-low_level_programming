@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main-program entry point.
+ * main - program entry point
  * Return: 0 no error, non zero if error
  */
 int main(void)
@@ -9,6 +9,6 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 		putchar(i);
-	        putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
