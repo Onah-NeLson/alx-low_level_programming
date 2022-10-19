@@ -1,15 +1,27 @@
 #include<stdio.h>
 /**
  * main - program entry point.
- * Return: 0 if no error, non zero if error.
+ *
  */
+
 int main(void)
-{int i;
-	char hexvalues[] = "0123456789abcdef" ,
-	     for (i = 0; i < 16; i++)
-	     {
-		     putchar(hexvalues[i]);
-	     }
+{
+	char c;
+
+	int d;
+
+	c = 'a';
+	d = 0;
+	while
+		(d < 10) {
+			putchar(d + '0');
+			d++;
+		}
+	while
+		(c <= 'f') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
